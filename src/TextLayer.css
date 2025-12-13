@@ -1,0 +1,22 @@
+.react-pdf__Page__textContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  opacity: 0.2;
+  z-index: 10;
+}
+
+.react-pdf__Page__text {
+  color: transparent;
+  position: absolute;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
+
+.react-pdf__Page__text--highlight {
+  /* ... (প্রয়োজনে এখানে আরও স্টাইল যোগ করা যেতে পারে) */
+}
